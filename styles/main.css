@@ -1,0 +1,140 @@
+body{
+  margin:0;
+  font-family: 'Libre Caslon Display', serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+.center-content{
+  text-align:center;
+}
+
+img{
+  max-width:100%;
+}
+
+/*
+    header
+*/
+
+#header{
+  background: url("../images/goeland.jpg") no-repeat;
+  background-size:cover;
+  height:530px;
+}
+
+#header div{
+  width:1170px;
+  padding-top:50px;
+  margin:0 auto;
+}
+/*
+    main
+*/
+main{
+  background:#fffcf4;
+}
+
+main article{
+  width: 960px;
+  margin:0 auto;
+}
+article header{
+  background: #FFF;
+  padding: 35px 35px 0 35px;
+  transform:translateY(-70px);
+}
+
+article h1 {
+  text-align: center;
+  background: url("../images/tiret.png") left 18px repeat-x;
+  width:250px;
+  margin:0 auto;
+}
+
+h1 span{
+  background:#FFF;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+h3{
+  color:#42c3ac;
+  font-size:24px;
+  text-align:center;
+}
+
+article header span{
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+article header a{
+  color:#42c3ac;
+}
+
+article p{
+  font-size:18px;
+  line-height: 2;
+  text-align: justify;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+article section{
+    padding: 0px 35px 0 35px;
+}
+
+
+/*
+FOOTER
+*/
+
+footer#footer{
+  background:#4ccdb6;
+  padding-top:8px;
+  padding-bottom:30px;
+  text-align:center;
+}
+
+footer#footer > div{
+  border-top:3px solid #FFF;
+}
+
+footer#footer > div img{
+  transform: translateY(-55px);
+}
+
+footer#footer h3{
+  text-align:center;
+  width:350px;
+  margin:0 auto;
+  color:#FFF;
+  background:url("../images/white-line.png") left 18px repeat-x;
+}
+
+footer#footer h3 span{
+  background:#4ccdb6;
+  padding:0 10px;
+}
+footer#footer p{
+  font-family: 'Darker Grotesque', sans-serif;
+  width:350px;
+  margin:0 auto;
+  margin-top:30px;
+  margin-bottom:30px;
+  color:#FFF;
+}
+
+footer#footer  a{
+  color:#FFF;
+  padding:4px 15px;
+  color:white;
+  border: 2px solid #FFF;
+  text-decoration:none;
+  background:#4ccdb6;
+  transition:all linear 0.5s;
+}
+
+footer#footer  a:hover{
+  background: #328778;
+}
